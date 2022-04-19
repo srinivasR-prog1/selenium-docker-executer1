@@ -34,8 +34,8 @@ services:
       - firefox
     environment:     
      - HUB_HOST=selenium-hub
-     - BROWSER=firefox
-     - MODULE=testng.xml
+     - BROWSER=chrome
+     - MODULE=TestNG.xml
     volumes:
       - ./output/search-result:/Users/tsrin/workspace/GoogleAutomationV2/test-output
     
